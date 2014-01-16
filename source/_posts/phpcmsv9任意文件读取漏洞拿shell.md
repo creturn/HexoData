@@ -22,7 +22,7 @@ categories:
 
 本地搭建的phpcsmV9.现用漏洞或者工具读取数据库信息：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/v9shell_1.jpg "v9shell_1")](http://www.creturn.com/asset/uploads/2012/07/v9shell_1.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/v9shell_1.jpg "v9shell_1")](http://asset.creturn.com/asset/uploads/2012/07/v9shell_1.jpg)
 
 <!--more-->
 数据库phpcmsv9用户名：root  密码为空
@@ -31,7 +31,7 @@ categories:
 
 打开工具点击连接-mysql配置数据库信息如图：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/v9shell_2.jpg "v9shell_2")](http://www.creturn.com/asset/uploads/2012/07/v9shell_2.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/v9shell_2.jpg "v9shell_2")](http://asset.creturn.com/asset/uploads/2012/07/v9shell_2.jpg)
 
 打开phpcmsV9数据库并且找到admin表，向表中添加一条数据，因为我们没法破解他的密码那么咱们就自己
 
@@ -41,7 +41,7 @@ categories:
 
 注意这几项必须添负责登录不了的。应为这条记录的意思是添加用户名为admin,密码为：creturn.com的超级管理员
 
-[![](http://www.creturn.com/asset/uploads/2012/07/v9shell_3.jpg "v9shell_3")](http://www.creturn.com/asset/uploads/2012/07/v9shell_3.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/v9shell_3.jpg "v9shell_3")](http://asset.creturn.com/asset/uploads/2012/07/v9shell_3.jpg)
 
 >后台登录地址：localhost/index.php?m=admin
 
@@ -49,11 +49,11 @@ categories:
 
 登录后台后我们找到界面-》模版风格-》选择默认模版点击详情列表
 
-[![](http://www.creturn.com/asset/uploads/2012/07/v9shell_41-1024x163.jpg "v9shell_4")](http://www.creturn.com/asset/uploads/2012/07/v9shell_41.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/v9shell_41-1024x163.jpg "v9shell_4")](http://asset.creturn.com/asset/uploads/2012/07/v9shell_41.jpg)
 
 然后点击里面的search目录下面的index.html右侧的编辑
 
-[![](http://www.creturn.com/asset/uploads/2012/07/v9shell_5.jpg "v9shell_5")](http://www.creturn.com/asset/uploads/2012/07/v9shell_5.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/v9shell_5.jpg "v9shell_5")](http://asset.creturn.com/asset/uploads/2012/07/v9shell_5.jpg)
 
 修改其模版为：
 
@@ -67,7 +67,7 @@ categories:
 
 会在根目录生成一个shell.php的一句话，我们连接看看
 
-[![](http://www.creturn.com/asset/uploads/2012/07/v9shell_6.jpg "v9shell_6")](http://www.creturn.com/asset/uploads/2012/07/v9shell_6.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/v9shell_6.jpg "v9shell_6")](http://asset.creturn.com/asset/uploads/2012/07/v9shell_6.jpg)
 
 可以看到已经拿到shell，记得把修改的模版改回去。
 

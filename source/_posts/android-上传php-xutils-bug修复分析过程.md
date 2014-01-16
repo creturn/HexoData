@@ -41,7 +41,7 @@ httpUtils.send(HttpRequest.HttpMethod.POST, UPLOAD_URL, params, new RequestCallB
 ```
 可以看到用起来比较方便，如果自己写还是比较麻烦的。不过最让人头疼的不是使用方法，而是作为接收端为PHP的话是接收不到上传的文件，最后经证实
 不仅仅是PHP C# 也有问题, 网上搜素了下不少人都遇到问题不过没有解决方案，看来只能自己动手解决了
-
+<!--more-->
 ##问题分析
 
 既然要解决问题，那么就需要分析bug可能出现的地方，既然是HTTP上传那么我们得知道在PHP 在HTTP协议中文件是怎么处理上传的，直接在官方文档
@@ -160,7 +160,7 @@ print_r($_FILES);
  
  看看我们抓到的包内容:
  
-![smart sniffer抓包内容](http://www.creturn.com/asset/img/android_sniffer.png)
+![smart sniffer抓包内容](http://asset.creturn.com/asset/img/android_sniffer.png)
 
 图种可以看到我们上传的HTTP包信息，不过很明显反馈的信息提示是没有上传成功的。
 
@@ -244,7 +244,7 @@ hello upload
 ```
 打开cmd 然后输入telnet www.creturn.com 80 然后黏贴进去看看效果
 
-![telnet post](http://www.creturn.com/asset/img/andriod-telnet.png)
+![telnet post](http://asset.creturn.com/asset/img/andriod-telnet.png)
 
 为了印证我们的才行可以把charset加上去和去掉的进行对比看看是不是加了之后就收不到上传文件的信息。
 

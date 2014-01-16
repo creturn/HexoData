@@ -25,7 +25,7 @@ War Driving：是驾驶攻击也称为接入点映射，这是一种在驾车围
 
 看两张图吧：
 
-[![20121222153346861](http://www.creturn.com/asset/uploads/2013/11/20121222153346861.png)](http://www.creturn.com/asset/uploads/2013/11/20121222153346861.png)
+[![20121222153346861](http://asset.creturn.com/asset/uploads/2013/11/20121222153346861.png)](http://asset.creturn.com/asset/uploads/2013/11/20121222153346861.png)
 
 上图是sqllite数据库进行的一个联合查询的结果，也是收集到信息达一部分。
 
@@ -41,7 +41,7 @@ capabilities:可以明显的看到这个是无线设备达加密方式
 
 那么接下来看看这张图片：
 
-[![20121222153349302](http://www.creturn.com/asset/uploads/2013/11/20121222153349302.png)](http://www.creturn.com/asset/uploads/2013/11/20121222153349302.png)
+[![20121222153349302](http://asset.creturn.com/asset/uploads/2013/11/20121222153349302.png)](http://asset.creturn.com/asset/uploads/2013/11/20121222153349302.png)
 
 上图是根据第一张图片上面信息以地图达方式展现出来～～～
 
@@ -71,11 +71,11 @@ wifi信息。记录下当前GPS位置周围达wifi信息不就可以了～
 
 先看看装完以后桌面图标：
 
-[![2012122215342748](http://www.creturn.com/asset/uploads/2013/11/2012122215342748.png)](http://www.creturn.com/asset/uploads/2013/11/2012122215342748.png)
+[![2012122215342748](http://asset.creturn.com/asset/uploads/2013/11/2012122215342748.png)](http://asset.creturn.com/asset/uploads/2013/11/2012122215342748.png)
 
 上面圈出来的就是它安装后达图标
 
-[![2012122215345131](http://www.creturn.com/asset/uploads/2013/11/2012122215345131.png)](http://www.creturn.com/asset/uploads/2013/11/2012122215345131.png)
+[![2012122215345131](http://asset.creturn.com/asset/uploads/2013/11/2012122215345131.png)](http://asset.creturn.com/asset/uploads/2013/11/2012122215345131.png)
 
 1.数据库中新增的数据量，也就是本次采集达数据（手机放兜里出去转移圈也就不少了）
 
@@ -91,11 +91,11 @@ wifi信息。记录下当前GPS位置周围达wifi信息不就可以了～
 
 和sqllite数据库信息如图：
 
-[![2012122215347148](http://www.creturn.com/asset/uploads/2013/11/2012122215347148.png)](http://www.creturn.com/asset/uploads/2013/11/2012122215347148.png)
+[![2012122215347148](http://asset.creturn.com/asset/uploads/2013/11/2012122215347148.png)](http://asset.creturn.com/asset/uploads/2013/11/2012122215347148.png)
 
 其实kml就是xml的数据格式改了个名字而已可以打开看看：
 
-[![2012122215349575](http://www.creturn.com/asset/uploads/2013/11/2012122215349575.png)](http://www.creturn.com/asset/uploads/2013/11/2012122215349575.png)
+[![2012122215349575](http://asset.creturn.com/asset/uploads/2013/11/2012122215349575.png)](http://asset.creturn.com/asset/uploads/2013/11/2012122215349575.png)
 
 然后打开google earth然后选择打开文件找到你刚才导出达kml就可以看到效果了～～
 

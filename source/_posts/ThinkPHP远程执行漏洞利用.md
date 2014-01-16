@@ -30,7 +30,7 @@ categories:
 <!--more-->
 好吧，为什么是fuck？前面已经说了第一个参数是模块那么系统肯定找不到模块的，所以出错信息：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/think1.png "think1")](http://www.creturn.com/asset/uploads/2012/07/think1.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/think1.png "think1")](http://asset.creturn.com/asset/uploads/2012/07/think1.png)
 
 可以看到是thinkPHP框架
 
@@ -50,7 +50,7 @@ categories:
 
 测试下看是否能够执行此命令：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/think2.png "think2")](http://www.creturn.com/asset/uploads/2012/07/think2.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/think2.png "think2")](http://asset.creturn.com/asset/uploads/2012/07/think2.png)
 
 可以看到已经解析了。那么就证明此站点存在远程执行漏洞，那么我们可以直接写入菜刀的一句话：
 
@@ -60,6 +60,6 @@ categories:
 
 菜刀连接看下效果：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/think3.png "think3")](http://www.creturn.com/asset/uploads/2012/07/think3.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/think3.png "think3")](http://asset.creturn.com/asset/uploads/2012/07/think3.png)
 
 好吧，就到这里。上面的真实地址我都替换掉了，目的只是演示thinkPHP远程执行命令的方法。还有就是提醒各位使用thinkphp框架的朋友，开发完东西后记住把debug模式关掉要不然很容以就看出是thinkphp的框架。

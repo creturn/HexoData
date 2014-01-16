@@ -78,4 +78,4 @@ if(count($argv) &lt; 2){
 
 国内第一名校，你懂得~~ ：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/phpcmsV9.jpg "phpcmsV9")](http://www.creturn.com/asset/uploads/2012/07/phpcmsV9.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/phpcmsV9.jpg "phpcmsV9")](http://asset.creturn.com/asset/uploads/2012/07/phpcmsV9.jpg)

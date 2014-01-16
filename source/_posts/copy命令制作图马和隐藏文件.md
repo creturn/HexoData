@@ -37,25 +37,25 @@ COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/A | /B ] source [/A | /B]
 <!--more-->
 首先准备一个图片，和一个一句话木马，如图：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma1.png "tuma1")](http://www.creturn.com/asset/uploads/2012/07/tuma1.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma1.png "tuma1")](http://asset.creturn.com/asset/uploads/2012/07/tuma1.png)
 
 然后打开cmd 切换到测试目录：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma2.png "tuma2")](http://www.creturn.com/asset/uploads/2012/07/tuma2.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma2.png "tuma2")](http://asset.creturn.com/asset/uploads/2012/07/tuma2.png)
 
 然后进行我们的图马合成，输入命令：copy mm.jpg/b + ma.txt/a tuma.jpg
 
 注意：copy 图马名称/b +一句话/a 生成文件名
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma3.png "tuma3")](http://www.creturn.com/asset/uploads/2012/07/tuma3.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma3.png "tuma3")](http://asset.creturn.com/asset/uploads/2012/07/tuma3.png)
 
 看看生成图马的预览图完全能够显示成图片：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma4.png "tuma4")](http://www.creturn.com/asset/uploads/2012/07/tuma4.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma4.png "tuma4")](http://asset.creturn.com/asset/uploads/2012/07/tuma4.png)
 
 然后用记事本或者任何文本编辑器打开ma.jpg
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma5.png "tuma5")](http://www.creturn.com/asset/uploads/2012/07/tuma5.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma5.png "tuma5")](http://asset.creturn.com/asset/uploads/2012/07/tuma5.png)
 
 可以看到一句话已经插入到文件中，用菜刀测试下看看行不行，记住把生成的
 
@@ -63,7 +63,7 @@ COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/A | /B ] source [/A | /B]
 
 看看截图：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma6.png "tuma6")](http://www.creturn.com/asset/uploads/2012/07/tuma6.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma6.png "tuma6")](http://asset.creturn.com/asset/uploads/2012/07/tuma6.png)
 
 可以看到正常解析。
 
@@ -73,18 +73,18 @@ COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/A | /B ] source [/A | /B]
 
 打包文件如图：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma7.png "tuma7")](http://www.creturn.com/asset/uploads/2012/07/tuma7.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma7.png "tuma7")](http://asset.creturn.com/asset/uploads/2012/07/tuma7.png)
 
 合并命令：copy mm.jpg/b + ma.rar/b newmm.jpg
 
 看看合并结果：newmm.jpg
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma8.png "tuma8")](http://www.creturn.com/asset/uploads/2012/07/tuma8.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma8.png "tuma8")](http://asset.creturn.com/asset/uploads/2012/07/tuma8.png)
 
 可以看到newmm.jpg文件是我们合成后的文件，并且里面已经隐藏了一个rar文件
 
 接下来我们看看我们隐藏的文件是否损坏，把newmm.jpg改成newmm.rar看看：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/tuma9.png "tuma9")](http://www.creturn.com/asset/uploads/2012/07/tuma9.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/tuma9.png "tuma9")](http://asset.creturn.com/asset/uploads/2012/07/tuma9.png)
 
 可以看到里面打包的文件完全正常~

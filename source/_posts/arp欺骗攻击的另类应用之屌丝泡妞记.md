@@ -22,7 +22,7 @@ arp欺骗，我想大家都应该知道怎么回事了。不知道的去问度�
 
 系统。环境如图：
 
-[![](http://www.creturn.com/asset/uploads/2012/10/001.png "001")](http://www.creturn.com/asset/uploads/2012/10/001.png)
+[![](http://asset.creturn.com/asset/uploads/2012/10/001.png "001")](http://asset.creturn.com/asset/uploads/2012/10/001.png)
 
 Arp欺骗工具我们就用ettercap吧，经典工具我就不多说了。
 
@@ -34,7 +34,7 @@ sudo apt-get install  ettercap-text-only  //安装纯字符界面的ettercap
 
 上面命令就可以直接安装它了，因为ubuntu软件仓储里面已经有了，直接可以进行安装。我已经装好了，版本信息如下：
 
-[![](http://www.creturn.com/asset/uploads/2012/10/002.png "002")](http://www.creturn.com/asset/uploads/2012/10/002.png)
+[![](http://asset.creturn.com/asset/uploads/2012/10/002.png "002")](http://asset.creturn.com/asset/uploads/2012/10/002.png)
 
 还需要安装一个东西，也是今天的主角：driftnet
 
@@ -50,7 +50,7 @@ sudo apt-get install driftnet
 
 看看我的版本信息吧：
 
-[![](http://www.creturn.com/asset/uploads/2012/10/0031.png "003")](http://www.creturn.com/asset/uploads/2012/10/0031.png)
+[![](http://asset.creturn.com/asset/uploads/2012/10/0031.png "003")](http://asset.creturn.com/asset/uploads/2012/10/0031.png)
 
 装完这些估计有人就会问了，这个和MM有神码联系？
 
@@ -58,7 +58,7 @@ sudo apt-get install driftnet
 
 先看张流程图片：
 
-[![](http://www.creturn.com/asset/uploads/2012/10/005.png "005")](http://www.creturn.com/asset/uploads/2012/10/005.png)
+[![](http://asset.creturn.com/asset/uploads/2012/10/005.png "005")](http://asset.creturn.com/asset/uploads/2012/10/005.png)
 
 这张图片已经说明了我们要做什么了，和怎么去做了，那么下来我们就进行实践操作。
 
@@ -78,7 +78,7 @@ sudo ettercap -i wlan0  -T -M arp:remote /192.168.1.253/ /192.168.1.100/   //�
 
 输入命令后的效果如图：
 
-[![](http://www.creturn.com/asset/uploads/2012/10/006.png "006")](http://www.creturn.com/asset/uploads/2012/10/006.png)
+[![](http://asset.creturn.com/asset/uploads/2012/10/006.png "006")](http://asset.creturn.com/asset/uploads/2012/10/006.png)
 
 然后我们需要用到我们的主角了，driftnet
 
@@ -88,7 +88,7 @@ driftnet -i wlan0
 
 运行后随便浏览下带有图片的网站效果如图：
 
-[![](http://www.creturn.com/asset/uploads/2012/10/007.png "007")](http://www.creturn.com/asset/uploads/2012/10/007.png)
+[![](http://asset.creturn.com/asset/uploads/2012/10/007.png "007")](http://asset.creturn.com/asset/uploads/2012/10/007.png)
 
 调整好浏览图片的窗口，然后我们就等着MM上网呗。这里当然只能自己做实验了，因为宽带独享。。。。。
 
@@ -96,11 +96,11 @@ driftnet -i wlan0
 
 电脑截图：
 
-[![](http://www.creturn.com/asset/uploads/2012/10/009.png "009")](http://www.creturn.com/asset/uploads/2012/10/009.png)
+[![](http://asset.creturn.com/asset/uploads/2012/10/009.png "009")](http://asset.creturn.com/asset/uploads/2012/10/009.png)
 
 怎么样？效果似乎不错是吧？嘿嘿，最后再来一张手机拍的PC和ipad的合照，这样也可以有个对照参考，如图：
 
-[![](http://www.creturn.com/asset/uploads/2012/10/008.jpg "008")](http://www.creturn.com/asset/uploads/2012/10/008.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/10/008.jpg "008")](http://asset.creturn.com/asset/uploads/2012/10/008.jpg)
 
 >再给点提示，以便屌丝们可以获取更多信息，tcpdump是linux比较有名的抓包工具，利用tcpdump可以抓取更详细的信息，这样再结合社会工程学，我想MM的信息肯定是跑步掉了！
 

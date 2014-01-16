@@ -245,13 +245,13 @@ if __name__ == '__main__':
 使用说明，直接看实例截图：
 运行程序后，输入目标地址如：www.creturn.com 用户名 密码
 
-[![](http://www.creturn.com/asset/uploads/2012/08/at_shell_1.png "at_shell_1")](http://www.creturn.com/asset/uploads/2012/08/at_shell_1.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/at_shell_1.png "at_shell_1")](http://asset.creturn.com/asset/uploads/2012/08/at_shell_1.png)
 
 会自动用图片查看器打开验证码，然后输入验证码：
 
-[![](http://www.creturn.com/asset/uploads/2012/08/at_shell_2.png "at_shell_2")](http://www.creturn.com/asset/uploads/2012/08/at_shell_2.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/at_shell_2.png "at_shell_2")](http://asset.creturn.com/asset/uploads/2012/08/at_shell_2.png)
 
 正确输入验证码后，程序会自动写入cache/cmd.php的一句话，由于找的一个测试外部站点，仅用了一些安全方面的函数因此一句话
 就不能测试了，我就直接写入一个php文件输出一段文字：
 
-[![](http://www.creturn.com/asset/uploads/2012/08/at_shell_3.png "at_shell_3")](http://www.creturn.com/asset/uploads/2012/08/at_shell_3.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/at_shell_3.png "at_shell_3")](http://asset.creturn.com/asset/uploads/2012/08/at_shell_3.png)

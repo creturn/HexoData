@@ -19,16 +19,16 @@ python越用越觉得顺手，简洁。不到50行代码就完成了，代码没
 
 可以直接使用它的文件，返回数值接口信息截图：
 
-[![QQ20131106-1](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-1.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-1.png)
+[![QQ20131106-1](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-1.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-1.png)
 
 <!--more-->
 
 截图：
-[![QQ20131106-2](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-2.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-2.png)
+[![QQ20131106-2](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-2.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-2.png)
 
 查询结果：
 
-[![QQ20131106-3](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-3.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-3.png)
+[![QQ20131106-3](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-3.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-3.png)
 
 代码
 

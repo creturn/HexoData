@@ -21,14 +21,14 @@ categories:
 
 然后在字体文件夹里面找到CourierNew字体右击选择显示如图：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/font.jpg "font")](http://www.creturn.com/asset/uploads/2012/07/font.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/font.jpg "font")](http://asset.creturn.com/asset/uploads/2012/07/font.jpg)
 
 <!--more-->
 
 然后在打开字体设置界面看看是不是已经可以看到CourierNew的字体：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/font_1.jpg "font_1")](http://www.creturn.com/asset/uploads/2012/07/font_1.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/font_1.jpg "font_1")](http://asset.creturn.com/asset/uploads/2012/07/font_1.jpg)
 
 最后在来一张全景效果图：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/font_2.jpg "font_2")](http://www.creturn.com/asset/uploads/2012/07/font_2.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/font_2.jpg "font_2")](http://asset.creturn.com/asset/uploads/2012/07/font_2.jpg)

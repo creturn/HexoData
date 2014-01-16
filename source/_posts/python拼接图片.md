@@ -22,7 +22,7 @@ So 就帮妹子一把~。~
 
 废话不多说的直接开始，先看看目录结构和图片的结构：
 
-[![QQ20131106-4](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-4.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-4.png)
+[![QQ20131106-4](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-4.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-4.png)
 
 其实分析小图，和对比里面的small我发现图片命名规则是pic后面一个数字是分割的列数，下划线后面的则是坐在行数
 
@@ -114,6 +114,6 @@ if __name__ == '__main__':
 
 合成后的图片大小：
 
-[![QQ20131106-5](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-5.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-5.png)
+[![QQ20131106-5](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-5.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-5.png)
 
 嘿嘿，还是python好用

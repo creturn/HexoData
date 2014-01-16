@@ -15,7 +15,7 @@ categories:
 
 我本机环境和显卡信息如图：
 
-[![224255j1foiui0lrc10rsh](http://www.creturn.com/asset/uploads/2013/11/224255j1foiui0lrc10rsh.png)](http://www.creturn.com/asset/uploads/2013/11/224255j1foiui0lrc10rsh.png)
+[![224255j1foiui0lrc10rsh](http://asset.creturn.com/asset/uploads/2013/11/224255j1foiui0lrc10rsh.png)](http://asset.creturn.com/asset/uploads/2013/11/224255j1foiui0lrc10rsh.png)
 
 <!--more-->
 
@@ -23,7 +23,7 @@ hashcat的下载地址为：http://hashcat.net/files_legacy/hashcat-0.40.7z 这�
 
 解压后可以看到如图内容：
 
-[![224256bl2n8535y5pvl87n](http://www.creturn.com/asset/uploads/2013/11/224256bl2n8535y5pvl87n.png)](http://www.creturn.com/asset/uploads/2013/11/224256bl2n8535y5pvl87n.png)
+[![224256bl2n8535y5pvl87n](http://asset.creturn.com/asset/uploads/2013/11/224256bl2n8535y5pvl87n.png)](http://asset.creturn.com/asset/uploads/2013/11/224256bl2n8535y5pvl87n.png)
 
 其中window和linux对应的版本都有。我是64位ubuntu 那么就用hashcat-cli64.bin
 
@@ -36,7 +36,7 @@ ln -s /home/return/soft/hack/hashcat/hashcat-cli64.bin /usr/bin/hashcat
 
 这样打开终端后不管在什么位置直接输入hashcat就行了，看看它支持的密码类型：
 
-[![224300uew6cie9zieq7cbq](http://www.creturn.com/asset/uploads/2013/11/224300uew6cie9zieq7cbq.png)](http://www.creturn.com/asset/uploads/2013/11/224300uew6cie9zieq7cbq.png)
+[![224300uew6cie9zieq7cbq](http://asset.creturn.com/asset/uploads/2013/11/224300uew6cie9zieq7cbq.png)](http://asset.creturn.com/asset/uploads/2013/11/224300uew6cie9zieq7cbq.png)
 
 其中红色部分就是sam加密类型
 
@@ -62,7 +62,7 @@ time hashcat -a 3 -m 0 hashcat.txt ?l?l?l?l?l?l
 
 结果如图：
 
-[![224303cnhu6wowugpmlpm6](http://www.creturn.com/asset/uploads/2013/11/224303cnhu6wowugpmlpm6.png)](http://www.creturn.com/asset/uploads/2013/11/224303cnhu6wowugpmlpm6.png)
+[![224303cnhu6wowugpmlpm6](http://asset.creturn.com/asset/uploads/2013/11/224303cnhu6wowugpmlpm6.png)](http://asset.creturn.com/asset/uploads/2013/11/224303cnhu6wowugpmlpm6.png)
 
 可以看到我标记出来的：
 
@@ -80,7 +80,7 @@ sudo apt-get install bkhive
 
 好了。继续，看下我的分区情况。因为现在在ubuntu下我的window在c盘第一分区上装着，如图：
 
-[![224307iz3gs432za1vawbx](http://www.creturn.com/asset/uploads/2013/11/224307iz3gs432za1vawbx.png)](http://www.creturn.com/asset/uploads/2013/11/224307iz3gs432za1vawbx.png)
+[![224307iz3gs432za1vawbx](http://asset.creturn.com/asset/uploads/2013/11/224307iz3gs432za1vawbx.png)](http://asset.creturn.com/asset/uploads/2013/11/224307iz3gs432za1vawbx.png)
 
 挂在sda1分区到我的/win
 
@@ -92,13 +92,13 @@ mkdir /win &amp; mount /dev/sda1 /win
 
 看看win下是否挂载成功，如果成功了，可以看到win目录下有window系统c盘（系统盘）的内容
 
-[![224310ayqj3g611m6tgy11](http://www.creturn.com/asset/uploads/2013/11/224310ayqj3g611m6tgy11.png)](http://www.creturn.com/asset/uploads/2013/11/224310ayqj3g611m6tgy11.png)
+[![224310ayqj3g611m6tgy11](http://asset.creturn.com/asset/uploads/2013/11/224310ayqj3g611m6tgy11.png)](http://asset.creturn.com/asset/uploads/2013/11/224310ayqj3g611m6tgy11.png)
 
 拷贝：cp /win/Windows/System32/config/SYSTEM  和SAM 文件到当前文件夹
 
 然后执行命令如下图：
 
-[![224313ubvwmmtwwfyxlttg](http://www.creturn.com/asset/uploads/2013/11/224313ubvwmmtwwfyxlttg.png)](http://www.creturn.com/asset/uploads/2013/11/224313ubvwmmtwwfyxlttg.png)
+[![224313ubvwmmtwwfyxlttg](http://asset.creturn.com/asset/uploads/2013/11/224313ubvwmmtwwfyxlttg.png)](http://asset.creturn.com/asset/uploads/2013/11/224313ubvwmmtwwfyxlttg.png)
 
 命令解释：
 
@@ -110,21 +110,21 @@ mkdir /win &amp; mount /dev/sda1 /win
 
 提取出来的哈是值如图：
 
-[![224314lf5dy5dq3b95zkkd](http://www.creturn.com/asset/uploads/2013/11/224314lf5dy5dq3b95zkkd.png)](http://www.creturn.com/asset/uploads/2013/11/224314lf5dy5dq3b95zkkd.png)
+[![224314lf5dy5dq3b95zkkd](http://asset.creturn.com/asset/uploads/2013/11/224314lf5dy5dq3b95zkkd.png)](http://asset.creturn.com/asset/uploads/2013/11/224314lf5dy5dq3b95zkkd.png)
 
 window的hash密文其实就是最后两个‘：’号之间的数据，到这里拿到值后其实就可以去网上看下有已经破解的密文了没
 
 可以看如图，已经找到密码了：
 
-[![224317qpwypa77l2gly2zv](http://www.creturn.com/asset/uploads/2013/11/224317qpwypa77l2gly2zv.png)](http://www.creturn.com/asset/uploads/2013/11/224317qpwypa77l2gly2zv.png)
+[![224317qpwypa77l2gly2zv](http://asset.creturn.com/asset/uploads/2013/11/224317qpwypa77l2gly2zv.png)](http://asset.creturn.com/asset/uploads/2013/11/224317qpwypa77l2gly2zv.png)
 
 那么接下来我们爆破。取出密文，也就是最后两个‘：’之间的数据保存为pwd.txt
 
 执行如下图命令：
 
-[![224318amdzfb6wrydsiebr](http://www.creturn.com/asset/uploads/2013/11/224318amdzfb6wrydsiebr.png)](http://www.creturn.com/asset/uploads/2013/11/224318amdzfb6wrydsiebr.png)
+[![224318amdzfb6wrydsiebr](http://asset.creturn.com/asset/uploads/2013/11/224318amdzfb6wrydsiebr.png)](http://asset.creturn.com/asset/uploads/2013/11/224318amdzfb6wrydsiebr.png)
 
-[![224320t0idau0t1r5edyuu](http://www.creturn.com/asset/uploads/2013/11/224320t0idau0t1r5edyuu.png)](http://www.creturn.com/asset/uploads/2013/11/224320t0idau0t1r5edyuu.png)
+[![224320t0idau0t1r5edyuu](http://asset.creturn.com/asset/uploads/2013/11/224320t0idau0t1r5edyuu.png)](http://asset.creturn.com/asset/uploads/2013/11/224320t0idau0t1r5edyuu.png)
 
 中机会有提示确认信息，输入大写YES就行
 

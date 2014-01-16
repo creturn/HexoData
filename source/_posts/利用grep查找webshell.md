@@ -13,7 +13,7 @@ grep （global search regular expression(RE) and print out the line,全面搜索
 
 利用grep命令我们可以查找常见的漏洞、webshell和其他恶意文件。本文使用的grep版本为2.9，如果你使用一个低于2.5.4的grep，那本片文章中的一些命令可能无法正常工作。可以用grep -v或grep -version确定一下版本。你也可以使用grep –help查看更多信息。如下图：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/1.png "1")](http://www.creturn.com/asset/uploads/2012/07/1.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/1.png "1")](http://asset.creturn.com/asset/uploads/2012/07/1.png)
 <!--more-->
 ##发现漏洞的常见方法：
 
@@ -23,7 +23,7 @@ grep （global search regular expression(RE) and print out the line,全面搜索
 grep -Rn “shell_exec *( ” /var/www
 ```
 
-[![](http://www.creturn.com/asset/uploads/2012/07/2.png "2")](http://www.creturn.com/asset/uploads/2012/07/2.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/2.png "2")](http://asset.creturn.com/asset/uploads/2012/07/2.png)
 
 上图中，我们可以看到可能存在漏洞的函数行和路径。
 
@@ -40,7 +40,7 @@ grep -Rn “include_once *(” /var/www
 grep -Rn “require_once *(” /var/www
 ```
 
-[![](http://www.creturn.com/asset/uploads/2012/07/3.png "3")](http://www.creturn.com/asset/uploads/2012/07/3.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/3.png "3")](http://asset.creturn.com/asset/uploads/2012/07/3.png)
 
 以上两个简单的例子可以做为白盒挖掘漏洞的参考，下面介绍一下查找webshell和其他恶意文件的方法：
 
@@ -79,9 +79,9 @@ grep -Rn “eval *(” /var/www
 grep -Rn “passthru *(” /var/www
 ```
 
-[![](http://www.creturn.com/asset/uploads/2012/07/4.png "4")](http://www.creturn.com/asset/uploads/2012/07/4.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/4.png "4")](http://asset.creturn.com/asset/uploads/2012/07/4.png)
 
-[![](http://www.creturn.com/asset/uploads/2012/07/5.png "5")](http://www.creturn.com/asset/uploads/2012/07/5.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/5.png "5")](http://asset.creturn.com/asset/uploads/2012/07/5.png)
 
 当然这些可以合并成一条命令，如下：
 

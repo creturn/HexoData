@@ -56,11 +56,11 @@ ini_set('session.cookie_lifetime', '1800');
 
 站点一
 
-[![](http://www.creturn.com/asset/uploads/2012/08/session_1.png "session_1")](http://www.creturn.com/asset/uploads/2012/08/session_1.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/session_1.png "session_1")](http://asset.creturn.com/asset/uploads/2012/08/session_1.png)
 
 站点二
 
-[![](http://www.creturn.com/asset/uploads/2012/08/session_2.png "session_2")](http://www.creturn.com/asset/uploads/2012/08/session_2.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/session_2.png "session_2")](http://asset.creturn.com/asset/uploads/2012/08/session_2.png)
 
 &nbsp;
 

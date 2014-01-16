@@ -39,7 +39,7 @@ www.creturn.com/logo.jpg%00.php //这个是7月中旬爆出的解析漏洞
 
 某交友网站：
 
-[![](http://www.creturn.com/asset/uploads/2012/08/nginx.png "nginx")](http://www.creturn.com/asset/uploads/2012/08/nginx.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/nginx.png "nginx")](http://asset.creturn.com/asset/uploads/2012/08/nginx.png)
 
 看到这么多图片，嘿嘿~~~肯定有上传的地方。先注册个帐号。刚注册完就提示你上传照片。
 
@@ -47,11 +47,11 @@ www.creturn.com/logo.jpg%00.php //这个是7月中旬爆出的解析漏洞
 
 看到图片，还需要审核~~
 
-[![](http://www.creturn.com/asset/uploads/2012/08/n.png "n")](http://www.creturn.com/asset/uploads/2012/08/n.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/n.png "n")](http://asset.creturn.com/asset/uploads/2012/08/n.png)
 
 右击图片审查元素（我用的是chrome浏览器）：
 
-[![](http://www.creturn.com/asset/uploads/2012/08/nginx_t.png "nginx_t")](http://www.creturn.com/asset/uploads/2012/08/nginx_t.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/nginx_t.png "nginx_t")](http://asset.creturn.com/asset/uploads/2012/08/nginx_t.png)
 
 可以看到图片的连接，不过不要高兴~~ 看到名称middle.jpg了没，如果你是程序员的话，你应该知道
 
@@ -71,7 +71,7 @@ http://www.creturn.com/upload/picture/photo/006/65/26/503d136ee3aaf.jpg/.php
 
 如下图，图片已经成功解析为可执行脚本：
 
-[![](http://www.creturn.com/asset/uploads/2012/08/nginx_t2.png "nginx_t2")](http://www.creturn.com/asset/uploads/2012/08/nginx_t2.png)
+[![](http://asset.creturn.com/asset/uploads/2012/08/nginx_t2.png "nginx_t2")](http://asset.creturn.com/asset/uploads/2012/08/nginx_t2.png)
 
 稍微浏览了下，权限很松~~
 

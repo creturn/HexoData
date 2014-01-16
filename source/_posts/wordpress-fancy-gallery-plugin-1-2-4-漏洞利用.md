@@ -18,7 +18,7 @@ categories:
 
 随便点击一个进去看了看：http://progressivepulse.com 发现这个网站确实存在此插件并且有列目录漏洞
 
-[![](http://www.creturn.com/asset/uploads/2012/07/pro1.png "pro1")](http://www.creturn.com/asset/uploads/2012/07/pro1.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/pro1.png "pro1")](http://asset.creturn.com/asset/uploads/2012/07/pro1.png)
 <!--more-->
 可以看到目录中的文件。
 
@@ -80,7 +80,7 @@ curl_init("http://progressivepulse.com/wp-content/plugins/radykal-fancy-gallery/
 
 结果悲剧的发现提示非图片文件 file is not a image:
 
-[![](http://www.creturn.com/asset/uploads/2012/07/pro2.png "pro2")](http://www.creturn.com/asset/uploads/2012/07/pro2.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/pro2.png "pro2")](http://asset.creturn.com/asset/uploads/2012/07/pro2.png)
 
 好吧那就上图马吧，图马我向大家都知道我就不多说了。再次上传，提示成功，但是接下来心拔凉拔凉的，看到
 
@@ -90,14 +90,14 @@ curl_init("http://progressivepulse.com/wp-content/plugins/radykal-fancy-gallery/
 
 也是上面的那个非图片文件。头部加入图片的头文件能跳过验证不，试试头部加入gif图片的头部信息：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/pro3.png "pro3")](http://www.creturn.com/asset/uploads/2012/07/pro3.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/pro3.png "pro3")](http://asset.creturn.com/asset/uploads/2012/07/pro3.png)
 
 然后再次上传试试看看成功与否：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/pro4.png "pro4")](http://www.creturn.com/asset/uploads/2012/07/pro4.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/pro4.png "pro4")](http://asset.creturn.com/asset/uploads/2012/07/pro4.png)
 
 看到图片上面提示成功，并且是php的文件。那么菜刀连接看看~~
 
-[![](http://www.creturn.com/asset/uploads/2012/07/pro5.png "pro5")](http://www.creturn.com/asset/uploads/2012/07/pro5.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/pro5.png "pro5")](http://asset.creturn.com/asset/uploads/2012/07/pro5.png)
 
 看到这里，不用我再说了吧。ok 后面的你们懂得。

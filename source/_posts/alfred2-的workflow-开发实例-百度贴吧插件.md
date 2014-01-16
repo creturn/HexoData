@@ -33,7 +33,7 @@ Alfred2 os x 上的一个比较好的插件好的插件，对于命令控来说�
 
 所以果断删掉，自己写。先看看效果图：
 
-[![QQ20131106-6](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-6.png)](http://www.creturn.com/asset/uploads/2013/11/QQ20131106-6.png)
+[![QQ20131106-6](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-6.png)](http://asset.creturn.com/asset/uploads/2013/11/QQ20131106-6.png)
 
 1\. 首先从百度贴吧抓取贴吧对应的帖子，我们知道pc端访问http://tieba.baidu.com/f?kw=吧名 就可以访问贴吧的帖子
 

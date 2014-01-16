@@ -17,7 +17,7 @@ dedecms 的这个漏洞已经是老漏洞了，只不过今天同学给我说他
 
 右击查看网站源代码，发现几个比较特殊的地方：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_source.png "dede_source")](http://www.creturn.com/asset/uploads/2012/07/dede_source.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_source.png "dede_source")](http://asset.creturn.com/asset/uploads/2012/07/dede_source.png)
 
 可以看到根目录有a文件夹和uploads，对于dedecms熟悉的人都知道，dedecms有a和uploads/allimg目录，
 
@@ -25,13 +25,13 @@ dedecms 的这个漏洞已经是老漏洞了，只不过今天同学给我说他
 
 也就能判断出目标系统：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_cms.png "dede_cms")](http://www.creturn.com/asset/uploads/2012/07/dede_cms.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_cms.png "dede_cms")](http://asset.creturn.com/asset/uploads/2012/07/dede_cms.png)
 
 可以清楚的看到目标是dedecms系统
 <!--more-->
 那么继续看看他的最好更新时间确认下他是否是最新版本如果不是最新版本那么存在漏洞的可能性就很大了：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_var.png "dede_var")](http://www.creturn.com/asset/uploads/2012/07/dede_var.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_var.png "dede_var")](http://asset.creturn.com/asset/uploads/2012/07/dede_var.png)
 
 可以看到最后一次更新时间是2011-10-15 看到这个基本能保证有可能存在漏洞。
 
@@ -39,7 +39,7 @@ dedeCMS的默认后台大家应该都知道，目标后面加上dede，结果真
 
 一般情况下很少有人把dede不重命名的。
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_admin.png "dede_admin")](http://www.creturn.com/asset/uploads/2012/07/dede_admin.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_admin.png "dede_admin")](http://asset.creturn.com/asset/uploads/2012/07/dede_admin.png)
 
 默认试了下admin没有此用户
 
@@ -53,7 +53,7 @@ dedeCMS的默认后台大家应该都知道，目标后面加上dede，结果真
 
 这句是爆出用户名的:
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_user.png "dede_user")](http://www.creturn.com/asset/uploads/2012/07/dede_user.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_user.png "dede_user")](http://asset.creturn.com/asset/uploads/2012/07/dede_user.png)
 
 ```php
 /member/ajax_membergroup.php?action=post&amp;membergroup=@`'` Union select pwd from `%23@__admin` where 1 or id=@`'`
@@ -61,7 +61,7 @@ dedeCMS的默认后台大家应该都知道，目标后面加上dede，结果真
 
 这个是爆密码的：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_pwd_new.png "dede_pwd_new")](http://www.creturn.com/asset/uploads/2012/07/dede_pwd_new.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_pwd_new.png "dede_pwd_new")](http://asset.creturn.com/asset/uploads/2012/07/dede_pwd_new.png)
 
 可以看到加密后的密码：9951b286c1329f303e3c
 
@@ -73,15 +73,15 @@ md5解密网站很多大家可以去找找，我是当时网站打不开就直�
 
 看了下目标服务器是IIS6的那么直接就上传特殊后缀，让它解析成php吧：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_server.png "dede_server")](http://www.creturn.com/asset/uploads/2012/07/dede_server.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_server.png "dede_server")](http://asset.creturn.com/asset/uploads/2012/07/dede_server.png)
 
 有了用户名，密码基本这个站点权限拿下了，后台上传一句话图马：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_up_file.png "dede_up_file")](http://www.creturn.com/asset/uploads/2012/07/dede_up_file.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_up_file.png "dede_up_file")](http://asset.creturn.com/asset/uploads/2012/07/dede_up_file.png)
 
 传后直接菜刀连上：
 
-[![](http://www.creturn.com/asset/uploads/2012/07/dede_caidao.png "dede_caidao")](http://www.creturn.com/asset/uploads/2012/07/dede_caidao.png)
+[![](http://asset.creturn.com/asset/uploads/2012/07/dede_caidao.png "dede_caidao")](http://asset.creturn.com/asset/uploads/2012/07/dede_caidao.png)
 
 互联网上的安全其实是很重要的，再次还是提醒各位coder或者安全运维，互联网安全很重要的，稍微有点马虎
 
